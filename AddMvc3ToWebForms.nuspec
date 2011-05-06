@@ -1,0 +1,16 @@
+<?xml version="1.0"?>
+<package xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <metadata xmlns="http://schemas.microsoft.com/packaging/2010/07/nuspec.xsd">
+    <id>AddMvc3ToWebForms</id>
+    <version>0.9.1</version>
+    <authors>Scott Hanselman</authors>
+    <owners>Scott Hanselman</owners>
+    <iconUrl>http://www.hanselman.com/images/nugeticon.png</iconUrl>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <description>A totally unsupported way to quickly add ASP.NET MVC 3 support to your WebForms Application. Works on my machine.</description>
+    <tags>MVC MVC3 ASP.NET WebForms</tags>
+    <dependencies>
+      <dependency id="WebActivator" version="1.3" />
+    </dependencies>
+  </metadata>
+</package>
