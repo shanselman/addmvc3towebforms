@@ -2,7 +2,7 @@
 <package xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
   <metadata xmlns="http://schemas.microsoft.com/packaging/2010/07/nuspec.xsd">
     <id>AddMvc3ToWebForms</id>
-    <version>0.9.1</version>
+    <version>0.9.2</version>
     <authors>Scott Hanselman</authors>
     <owners>Scott Hanselman</owners>
     <iconUrl>http://www.hanselman.com/images/nugeticon.png</iconUrl>

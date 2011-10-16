@@ -1,1 +1,2 @@
-c:\dev\utils\nuget pack
+C:\Users\scottha\Desktop\Dropbox\utils\nuget pack
+pause

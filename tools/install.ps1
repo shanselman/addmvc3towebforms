@@ -9,12 +9,12 @@ else
     if($project.Type -eq 'C#') {
         $project.Object.References.Add("Microsoft.CSharp"); 
     }
-    $project.Object.References.Add("System.Web.Mvc"); 
-    $project.Object.References.Add("System.Web.Routing"); 
-    $project.Object.References.Add("Microsoft.Web.Infrastructure"); 
-    $project.Object.References.Add("System.Web.WebPages"); 
-    $project.Object.References.Add("System.Web.Razor"); 
-    $project.Object.References.Add("System.ComponentModel.DataAnnotations"); 
+    $project.Object.References.Add("System.Web.Mvc, Version=3.0.0.0"); 
+    $project.Object.References.Add("System.Web.Routing, Version=4.0.0.0"); 
+    $project.Object.References.Add("Microsoft.Web.Infrastructure, Version=1.0.0.0"); 
+    $project.Object.References.Add("System.Web.WebPages, Version=1.0.0.0"); 
+    $project.Object.References.Add("System.Web.Razor, Version=1.0.0.0"); 
+    $project.Object.References.Add("System.ComponentModel.DataAnnotations, Version=4.0.0.0"); 
     
     #Here it is (HACK WARNING :)). 
 
